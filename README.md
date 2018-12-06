@@ -36,7 +36,7 @@ File Name : qc-portal.conf
 
 </VirtualHost>
 
-#enable the vhost
+# enable the vhost
 sudo a2ensite qc-portal.com.conf
 
 # Edit 
