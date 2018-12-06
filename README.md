@@ -36,7 +36,9 @@ File Name : qc-portal.conf
 
 </VirtualHost>
 
+#enable the vhost
+sudo a2ensite qc-portal.com.conf
+
 # Edit 
 Type on Terminal sudo gedit /etc/hosts
-
 add 127.0.0.1 qc-portal.com
