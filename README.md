@@ -35,3 +35,8 @@ File Name : qc-portal.conf
   CustomLog /var/log/apache2/access-qc-portal.com.log combined
 
 </VirtualHost>
+
+# Edit 
+Type on Terminal sudo gedit /etc/hosts
+
+add 127.0.0.1 qc-portal.com
